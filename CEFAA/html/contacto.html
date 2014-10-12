@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -62,16 +63,50 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="casos.html">Casos</a></li>
           <li><a href="enviar-caso.html">Enviar caso</a></li>
-          <li><a href="contacto.html">Contáctenos</a></li>
+          <li class="active"><a href="contacto.html">Contáctenos</a></li>
         </ul>
       </div>
     </div>
+    <!-- INICIO FORM -->
     <div class="container interior-pages">
-
-      <!-- Contenido de Pagina -->
-
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Contáctenos</h3>
+        </div>
+        <div class="col-lg-7">
+          <form role="form">
+            <!-- Contact Form -->
+            <fieldset>
+              <div class="row">
+                <div class="col-lg-12">
+                </div>
+                <div class="form-group col-lg-8">
+                  <label for="name">Nombre completo</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group col-lg-8">
+                  <label for="address">Correo electrónico</label>
+                  <input type="text" class="form-control" id="address">
+                </div>
+                <div class="form-group col-lg-8">
+                  <label for="phone">Mensaje</label>
+                  <textarea id="" class="form-control"  row="col5"></textarea>
+                </div>
+              </div>
+            </fieldset>
+            <div class="row">
+              <div class="col-lg-12">
+                <button class="btn btn-primary">Siguiente</button>
+                <button class="btn btn-primary">Enviar Caso</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <!-- FOOTER -->
+    <!-- INICIO FORM -->
+
+      <!-- FOOTER -->
       <footer>
         <div class="container">
           <div class="row">
@@ -147,6 +182,41 @@
     <script>
       $(document).ready(function(){
           $("#myCarousel").carousel();
+          //Wizard
+          $('#MyWizard').on('change', function(e, data) {
+  console.log('change');
+  if(data.step===3 && data.direction==='next') {
+    // return e.preventDefault();
+  }
+});
+$('#MyWizard').on('changed', function(e, data) {
+  console.log('changed');
+});
+$('#MyWizard').on('finished', function(e, data) {
+  console.log('finished');
+});
+$('#btnWizardPrev').on('click', function() {
+  $('#MyWizard').wizard('previous');
+});
+$('#btnWizardNext').on('click', function() {
+  $('#MyWizard').wizard('next','foo');
+});
+$('#btnWizardStep').on('click', function() {
+  var item = $('#MyWizard').wizard('selectedItem');
+  console.log(item.step);
+});
+$('#MyWizard').on('stepclick', function(e, data) {
+  console.log('step' + data.step + ' clicked');
+  if(data.step===1) {
+    // return e.preventDefault();
+  }
+});
+
+// optionally navigate back to 2nd step
+$('#btnStep2').on('click', function(e, data) {
+  $('[data-target=#step2]').trigger("click");
+});
+
       });
     </script>
   </body>
