@@ -35,7 +35,7 @@
           <ul class="nav nav-justified">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="acerca.html">Acerca del Museo</a></li>
-            <li><a href="exhibiciones-permanentes.html">Exhibiciones</a></li>
+            <li class="active"><a href="exhibiciones-permanentes.html">Exhibiciones</a></li>
             <li><a href="publicaciones.html">Publicaciones</a></li>
             <li><a href="como-llegar.html">Cómo llegar</a></li>
             <li><a href="contactenos.html">Contáctenos</a></li>
@@ -50,16 +50,92 @@
           <div class="col-lg-12 col-md-12">
             <ol class="breadcrumb">
               <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="#">Quienes somos</a></li>
+              <li class="active">Exhibiciones permanentes</li>
             </ol>
           </div>
           <!-- ===================== CONTENT ========================= -->
+          <div class="col-lg-3 col-md-3">
+            <ul class=" lateral-menu nav nav-list">
+              <li>
+                <label class="tree-toggler nav-header">Exhibiciones permanentes</label>
+                <ul class="nav nav-list tree">
+                    <li><a href="item-exhibicion-permanente.html">Salas históricas</a></li>
+                    <li><a href="#">Vuelo y mitología</a></li>
+                    <li><a href="#">Leonardo Da Vinci</a></li>
+                    <li><a href="#">Soñadores y Constructores</a></li>
+                    <li><a href="#">Los hermanos Wright</a></li>
+                    <li><a href="#">Precursores de la aeronáutica nacional</a></li>
+                    <li><a href="#">Aeronaves</a></li>
+                    <li><a href="#">Sala de Reactores</a></li>
+                    <li><a href="#">Sala del Espacio</a></li>
+                    <li><a href="#">El vuelo en la naturaleza</a></li>
+                    <li><a href="#">Rincón de los niños</a></li>
+                    <li><a href="#">Modulo para discapacitados visuales</a></li>
+                </ul>
+              </li>
+              <li>
+                <label class="tree-toggler nav-header"><a class="" href="exhibiciones-temporales.html">Exhibiciones temporales</a></label>
+              </li>
+              <li>
+                <label class="tree-toggler nav-header"><a class="" href="exhibiciones-itinerantes.html">Exhibiciones itinerantes</a></label>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 col-md-9">
+            <!-- ============ template exhibiciones ========= -->
+            <h3>Exhibiciones Permanentes</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id consequat dolor. Fusce sodales molestie ex, sit amet
+varius ligula pellentesque ac.</p>
+            <!-- === ITEM EXHIBICIÓN === -->
+            <div class="row item-exhibition">
+              <div class="col-lg-4">
+                <img class="img-responsive" src="http://placehold.it/400x300">
+              </div>
+              <div class="col-lg-8">
+                <h4>Salas históricas</br><small>Breve descripción del contenido de la exhibición</small></h4>
+                <p>In hendrerit elit id nunc fermentum rhoncus. Fusce id orci eleifend, consequat ipsum eget, rhoncus orci. Aenean convallis suscip
+                <br/>
+                <br/>
+                <a href="item-exhibicion-permanente.html">Ver más »</a></p>
+              </div>
+            </div>
+            <!-- === ITEM EXHIBICIÓN === -->
+            <!-- === ITEM EXHIBICIÓN === -->
+            <div class="row item-exhibition">
+              <div class="col-lg-4">
+                <img class="img-responsive" src="http://placehold.it/400x300">
+              </div>
+              <div class="col-lg-8">
+                <h4>Nombre de la exhibición</br><small>Breve descripción del contenido de la exhibición</small></h4>
+                <p>In hendrerit elit id nunc fermentum rhoncus. Fusce id orci eleifend, consequat ipsum eget, rhoncus orci. Aenean convallis suscip
+                <br/>
+                <br/>
+                <a href="#">Ver más »</a></p>
+              </div>
+            </div>
+            <!-- === ITEM EXHIBICIÓN === -->
 
+            <!-- === ITEM EXHIBICIÓN === -->
+            <div class="row item-exhibition">
+              <div class="col-lg-4">
+                <img class="img-responsive" src="http://placehold.it/400x300">
+              </div>
+              <div class="col-lg-8">
+                <h4>Nombre de la exhibición</br><small>Breve descripción del contenido de la exhibición</small></h4>
+                <p>In hendrerit elit id nunc fermentum rhoncus. Fusce id orci eleifend, consequat ipsum eget, rhoncus orci. Aenean convallis suscip
+                <br/>
+                <br/>
+                <a href="#">Ver más »</a></p>
+              </div>
+            </div>
+            <br>
+            <!-- === ITEM EXHIBICIÓN === -->
+            <a href="#" class="btn btn-primary load">Cargar más</a>
+          </div>
           <!-- ========= END CONTENT ============ -->
         </div>
       </div>
     </div>
-
 
     <!-- Site footer -->
     <div class="container-footer">
@@ -125,6 +201,9 @@
       $(document).ready(function(){
         // Put stuff here
         $("#myCarousel").carousel();
+        $('label.tree-toggler').click(function () {
+          $(this).parent().children('ul.tree').toggle(300);
+        });
       });
     </script>
   </body>

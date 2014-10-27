@@ -2,7 +2,8 @@
 	background-color: #fff ;
 	border-top: 8px solid #555;
 	img {
-		margin-top: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 	h3 {
 		margin-bottom: 30px;
@@ -30,6 +31,12 @@
 h1, .h1, h2, .h2, h3, .h3 {
 	font-family: @font-family-serif;
 	color: #f19e1a;
+}
+h4, .h4, h4, .h4, h4, .h4 {
+	font-family: @font-family-serif;
+	small {
+		color: #ADDAFD;
+	}
 }
 .jumbotron {
 	padding-top: 0px;
@@ -70,4 +77,45 @@ body   {
 .img-participant {
 	margin-bottom: 10px;
 	margin-top: 10px
+}
+.item-exhibition {
+	margin-bottom: 10px; 
+
+}
+ul.lateral-menu > li {
+	border-bottom: 1px solid #5F7393;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	label {
+		cursor: pointer;
+	}
+
+}
+ul.lateral-menu > li:last-child {
+		border-bottom: 1px solid transparent;
+	}
+ul.tree > li > a:hover, ul.tree > li  > a:hover{
+		background-color: #306EA0;
+		color: #fff;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+	}
+.tree-toggler > a {
+	text-decoration: none;
+}
+.tree-toggler > a:hover {
+	color: #fff;
+}
+.item-galeria {
+	margin-bottom: 30px;
+}
+.more-info h2  {
+	font-size: 1.5em; 
+	a{
+		text-decoration: none;
+		}
+	small {
+		color: #fff;
+	}
 }
