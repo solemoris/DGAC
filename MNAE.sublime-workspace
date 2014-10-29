@@ -27,6 +27,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "MNAE/html/item-publicacion.html",
+			"settings":
+			{
+				"buffer_size": 8433,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MNAE/html/colecciones.html",
+			"settings":
+			{
+				"buffer_size": 8497,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MNAE/html/item-coleccion.html",
+			"settings":
+			{
+				"buffer_size": 8405,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MNAE/html/publicaciones.html",
+			"settings":
+			{
+				"buffer_size": 8528,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MNAE/html/index.html",
+			"settings":
+			{
+				"buffer_size": 8543,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,6 +104,23 @@
 	},
 	"file_history":
 	[
+		"/C/smoris/DCAG/MNAE/html/exhibiciones-itinerantes.html",
+		"/C/smoris/DCAG/MNAE/html/publicaciones.html",
+		"/C/smoris/DCAG/MNAE/html/exhibiciones-permanentes.html",
+		"/C/smoris/DCAG/MNAE/html/exhibiciones-temporales.html",
+		"/C/smoris/DCAG/MNAE/html/galeria-imagenes.html",
+		"/C/smoris/DCAG/MNAE/html/index.html",
+		"/C/smoris/DCAG/MNAE/html/item-exhibicion-itinerante.html",
+		"/C/smoris/DCAG/MNAE/html/item-exhibicion-permanente.html",
+		"/C/smoris/DCAG/MNAE/html/item-exhibicion-temporal.html",
+		"/C/smoris/DCAG/MNAE/html/item-galeria.html",
+		"/C/smoris/DCAG/MNAE/html/reserva-visita.html",
+		"/C/smoris/DCAG/MNAE/html/template.html",
+		"/C/smoris/DCAG/MNAE/html/visita-guiada.html",
+		"/C/smoris/DCAG/MNAE/html/acerca.html",
+		"/C/smoris/DCAG/MNAE/html/contactenos.html",
+		"/C/smoris/DCAG/MNAE/html/como-llegar.html",
+		"/C/smoris/DCAG/MNAE/html/colecciones.html",
 		"/C/smoris/DCAG/CEFAA/html/quienes-somos.html",
 		"/C/smoris/DCAG/CEFAA/html/post.html",
 		"/C/smoris/DCAG/CEFAA/html/metodologia.html",
@@ -174,18 +231,7 @@
 		"/C/Users/smoris/Desktop/Music/Lucybell - Grandes Exitos/05 - Carnaval.mp3",
 		"/C/Users/smoris/Desktop/archive.pst",
 		"/C/Users/smoris/Downloads/Emails/hero.html",
-		"/C/Users/smoris/Desktop/Site/assets/css/gagnam.css",
-		"/C/Users/smoris/Desktop/Site/assets/css/style.css",
-		"/C/Users/smoris/Desktop/Site/index.html",
-		"/C/Users/smoris/Dropbox/Public/poc-playa/home.html",
-		"/C/Users/smoris/Downloads/bootstrap-3.1.0/docs/examples/navbar-fixed-top/index.html",
-		"/C/Users/smoris/Downloads/bootstrap-3.1.0/docs/dist/css/bootstrap-theme.css.map",
-		"/C/Users/smoris/Dropbox/Public/poc-playa/aumentar-precarga.html",
-		"/C/Users/smoris/Downloads/bootstrap-3.1.0/docs/dist/css/bootstrap.css.map",
-		"/C/Users/smoris/Desktop/Maps/maps-dev/css/app.css",
-		"/C/Users/smoris/Desktop/Maps/maps-dev/index.html",
-		"//devsvn02/Desarrollo/Archivos de configuracion/correccion machine.config.txt",
-		"/C/Windows/Microsoft.NET/Framework/v4.0.30319/Config/machine.config"
+		"/C/Users/smoris/Desktop/Site/assets/css/gagnam.css"
 	],
 	"find":
 	{
@@ -204,6 +250,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Breve descripción del contenido de la colección",
+			"Nombre de la colección",
+			"Nombre de la exhibición",
+			"Breve descripción del contenido de la exhibición",
+			"Colección",
+			"<li><a href=\"publicaciones.html\">Publicaciones</a></li>",
 			"asombroso",
 			"Dirección de Aeronáutica Civil de Chile",
 			"<br/> Dirección de Aeronáutica Civil de Chile</div>",
@@ -327,6 +379,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Breve descripción del contenido de la publicación",
+			"Nombre de la publicación",
+			"Nombre de la colección",
+			"Breve descripción del contenido de la colección",
+			"Nombre de la exhibición",
+			"<li><a href=\"colecciones.html\">Investigación</a></li>",
 			"Dirección General de Aeronáutica Civil",
 			"<br/> Dirección General de Aeronáutica Civil</div>",
 			"\"col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1\"",
@@ -404,8 +462,149 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "MNAE/html/item-publicacion.html",
+					"settings":
+					{
+						"buffer_size": 8433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2489,
+								2489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "MNAE/html/colecciones.html",
+					"settings":
+					{
+						"buffer_size": 8497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2312,
+								2664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "MNAE/html/item-coleccion.html",
+					"settings":
+					{
+						"buffer_size": 8405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2131,
+								2131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "MNAE/html/publicaciones.html",
+					"settings":
+					{
+						"buffer_size": 8528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2832,
+								2226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "MNAE/html/index.html",
+					"settings":
+					{
+						"buffer_size": 8543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5632,
+								5632
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1305.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -446,7 +645,7 @@
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
