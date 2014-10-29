@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"de",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
 				"ma",
-				"margin-right"
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
 			],
 			[
 				"padd",
@@ -28,20 +64,12 @@
 				"margin"
 			],
 			[
-				"pa",
-				"padding-bottom"
-			],
-			[
 				"fonts",
 				"font-awesome"
 			],
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"m",
-				"margin"
 			],
 			[
 				"i",
@@ -58,10 +86,6 @@
 			[
 				"borde",
 				"border-top"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"in",
@@ -88,10 +112,6 @@
 				"background-size"
 			],
 			[
-				"p",
-				"padding-top"
-			],
-			[
 				"mat",
 				"margin-left"
 			],
@@ -106,10 +126,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"te",
@@ -134,10 +150,6 @@
 			[
 				"pad",
 				"padding-left"
-			],
-			[
-				"paddin",
-				"padding-top"
 			],
 			[
 				"backa",
@@ -190,10 +202,6 @@
 			[
 				"d",
 				"display"
-			],
-			[
-				"bo",
-				"border"
 			],
 			[
 				"s",
@@ -292,18 +300,26 @@
 	"buffers":
 	[
 		{
-			"file": "html/index.html",
+			"file": "less/added.less",
 			"settings":
 			{
-				"buffer_size": 1269,
+				"buffer_size": 2090,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/soledadmoris/DGAC/CEFAA/html/template.html",
+			"file": "html/reserva-visita.html",
 			"settings":
 			{
-				"buffer_size": 6304,
+				"buffer_size": 10232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/item-galeria.html",
+			"settings":
+			{
+				"buffer_size": 7956,
 				"line_ending": "Unix"
 			}
 		}
@@ -340,6 +356,25 @@
 	},
 	"file_history":
 	[
+		"/Users/soledadmoris/DGAC/MNAE/html/contactenos.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/como-llegar.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-permanentes.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/galeria-imagenes.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/acerca.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/template.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-temporal.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-permanente.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-itinerante.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/index.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-temporales.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-itinerantes.html",
+		"/Users/soledadmoris/DGAC/MNAE/less/added.less",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-subhome.html",
+		"/Users/soledadmoris/DGAC/MNAE/less/bootstrap.less",
+		"/Users/soledadmoris/DGAC/MNAE/less/justified-nav.less",
+		"/Users/soledadmoris/DGAC/MNAE/less/variables.less",
+		"/Users/soledadmoris/DGAC/CEFAA/html/template.html",
 		"/Users/soledadmoris/DGAC/CEFAA/html/enviar-caso.html",
 		"/Users/soledadmoris/Downloads/jquery.easyWizard-master/demo/index.html",
 		"/Users/soledadmoris/DGAC/CEFAA/html/articulo-caso.html",
@@ -352,7 +387,6 @@
 		"/Users/soledadmoris/DGAC/CEFAA/html/metodologia.html",
 		"/Users/soledadmoris/DGAC/CEFAA/html/quienes-somos.html",
 		"/Users/soledadmoris/DGAC/CEFAA/html/index.html",
-		"/Users/soledadmoris/DGAC/CEFAA/html/template.html",
 		"/Users/soledadmoris/DGAC/CEFAA/html/post.html",
 		"/Users/soledadmoris/DGAC/CEFAA/html/caso-unico.html",
 		"/Users/soledadmoris/DGAC/CEFAA/less/variables.less",
@@ -449,25 +483,7 @@
 		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/type.less",
 		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/forms.less",
 		"/Users/soledadmoris/Downloads/silviomoreto-bootstrap-select-9656fcf/test.html",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/js/angular.js",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/js/angular.min.js",
-		"/Users/soledadmoris/instant/Chilecoin/src/web/coin4ce/coin4ce/base/static/base/css/navbar-fixed-top.css",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/css/font-awesome.css",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/font-awesome.less",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/pager.less",
-		"/Users/soledadmoris/instant/Chilecoin/src/web/coin4ce/coin4ce/base/static/base/css/font-awesome.css",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/css/app.css",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/alerts.less",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/buttons.less",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/assets/css/exp-social.css",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/assets/css/bootstrap.css",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/scrollorama.html",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/home.html",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/index-bootstrap.html",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/index.html",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/assets/js/parallax.js",
-		"/Users/soledadmoris/Desktop/Experimento Site/site/bootstrap-3.0.2/examples/carousel/index.html",
-		"/Users/soledadmoris/Dropbox/POC/Landing Page 4/site/assets/css/poc.css"
+		"/Users/soledadmoris/instant/coin4ce/base/static/base/js/angular.js"
 	],
 	"find":
 	{
@@ -475,7 +491,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"",
@@ -490,6 +506,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
+			"<div class=\"col-lg-6 col-md-6\">",
+			"<img src=\"http://placehold.it/400x350\">",
+			"<img src=\"http://placehold.it/400x300\">",
+			"<img src=\"http://placehold.it/350x150\">",
+			"http://placehold.it/350x1\nhttp://placehold.it/350x1\n<img src=\"http://placehold.it/350x150\">",
+			"comollegar.html",
+			"exhibiciones temporales",
+			"container-footer",
+			"<li><a href=\"exhibiciones.html\">Exhibiciones</a></li>",
+			"Exhibiciones",
+			"();\n",
+			"<ul class=\"pull-right list-unstyled list-inline list-language\">\n            <li><a href=\"\">Español</a>  |</li>\n            <li><a href=\"\">Inglés</a></li>\n          </ul>",
+			"col-lg-4\"",
 			"<h3><a href=\"#\">Título del caso</a><br/>",
 			"<a href=\"#\">Leer más</a>",
 			"+ Ver más",
@@ -603,21 +633,7 @@
 			"ten-columns",
 			"img-avatar",
 			"sidebar-alt-visible-lg",
-			"background-image: url(http://carrera.poc.cl/srv/getPersonPicture/113)",
-			"chat-user-online",
-			"img-avatar",
-			"animation-pulseSlow",
-			"        END Login Background",
-			"    background-color: #0367C3;\n",
-			"</div>",
-			"login-container",
-			"login-container ",
-			"login-title",
-			"Pro",
-			"Pro ui",
-			"Pro uo",
-			"\">\n",
-			"add-friend"
+			"background-image: url(http://carrera.poc.cl/srv/getPersonPicture/113)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -625,6 +641,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div class=\"col-lg-6 col-md-6 item-galeria\">",
+			"<img src=\"http://placehold.it/400x250\">",
+			"<img src=\"http://placehold.it/400x350\">",
+			"<img src=\"http://placehold.it/400x300\">",
+			"como-llegar.html",
+			"<li><a href=\"exhibiciones-permanentes.html\">Exhibiciones</a></li>",
+			"col-lg-4 col-md-4\"",
 			"<h3><a href=\"caso-unico.html\">Título del caso</a><br/>",
 			"<a href=\"caso-unico.html\">Leer más</a>",
 			"Leer más",
@@ -661,51 +684,50 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html/index.html",
+					"file": "less/added.less",
 					"settings":
 					{
-						"buffer_size": 1269,
+						"buffer_size": 2090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								330,
-								330
+								2052,
+								2052
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1353.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/soledadmoris/DGAC/CEFAA/html/template.html",
+					"file": "html/reserva-visita.html",
 					"settings":
 					{
-						"buffer_size": 6304,
+						"buffer_size": 10232,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5952,
-								5581
+								6835,
+								6835
 							]
 						],
 						"settings":
@@ -715,7 +737,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 2316.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/item-galeria.html",
+					"settings":
+					{
+						"buffer_size": 7956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4850,
+								2915
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1193.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
