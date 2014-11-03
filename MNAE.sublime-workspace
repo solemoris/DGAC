@@ -28,42 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "MNAE/html/item-publicacion.html",
-			"settings":
-			{
-				"buffer_size": 8433,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "MNAE/html/colecciones.html",
-			"settings":
-			{
-				"buffer_size": 8497,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "MNAE/html/item-coleccion.html",
-			"settings":
-			{
-				"buffer_size": 8405,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "MNAE/html/publicaciones.html",
-			"settings":
-			{
-				"buffer_size": 8528,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "MNAE/html/index.html",
 			"settings":
 			{
-				"buffer_size": 8543,
+				"buffer_size": 8578,
 				"line_ending": "Windows"
 			}
 		}
@@ -104,8 +72,11 @@
 	},
 	"file_history":
 	[
-		"/C/smoris/DCAG/MNAE/html/exhibiciones-itinerantes.html",
+		"/C/smoris/DCAG/MNAE/html/item-publicacion.html",
+		"/C/smoris/DCAG/MNAE/html/colecciones.html",
+		"/C/smoris/DCAG/MNAE/html/item-coleccion.html",
 		"/C/smoris/DCAG/MNAE/html/publicaciones.html",
+		"/C/smoris/DCAG/MNAE/html/exhibiciones-itinerantes.html",
 		"/C/smoris/DCAG/MNAE/html/exhibiciones-permanentes.html",
 		"/C/smoris/DCAG/MNAE/html/exhibiciones-temporales.html",
 		"/C/smoris/DCAG/MNAE/html/galeria-imagenes.html",
@@ -120,7 +91,6 @@
 		"/C/smoris/DCAG/MNAE/html/acerca.html",
 		"/C/smoris/DCAG/MNAE/html/contactenos.html",
 		"/C/smoris/DCAG/MNAE/html/como-llegar.html",
-		"/C/smoris/DCAG/MNAE/html/colecciones.html",
 		"/C/smoris/DCAG/CEFAA/html/quienes-somos.html",
 		"/C/smoris/DCAG/CEFAA/html/post.html",
 		"/C/smoris/DCAG/CEFAA/html/metodologia.html",
@@ -229,9 +199,7 @@
 		"/C/Users/smoris/Desktop/Music/Lucybell - Grandes Exitos/07 - Mataz.mp3",
 		"/C/Users/smoris/Desktop/Music/Lucybell - Grandes Exitos/01 - Sembrando En El mar.mp3",
 		"/C/Users/smoris/Desktop/Music/Lucybell - Grandes Exitos/05 - Carnaval.mp3",
-		"/C/Users/smoris/Desktop/archive.pst",
-		"/C/Users/smoris/Downloads/Emails/hero.html",
-		"/C/Users/smoris/Desktop/Site/assets/css/gagnam.css"
+		"/C/Users/smoris/Desktop/archive.pst"
 	],
 	"find":
 	{
@@ -239,7 +207,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			""
@@ -462,135 +430,23 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "MNAE/html/item-publicacion.html",
-					"settings":
-					{
-						"buffer_size": 8433,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2489,
-								2489
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "MNAE/html/colecciones.html",
-					"settings":
-					{
-						"buffer_size": 8497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2312,
-								2664
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 720.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "MNAE/html/item-coleccion.html",
-					"settings":
-					{
-						"buffer_size": 8405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2131,
-								2131
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "MNAE/html/publicaciones.html",
-					"settings":
-					{
-						"buffer_size": 8528,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2832,
-								2226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 720.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "MNAE/html/index.html",
 					"settings":
 					{
-						"buffer_size": 8543,
+						"buffer_size": 8578,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5632,
-								5632
+								6875,
+								6875
 							]
 						],
 						"settings":
@@ -600,7 +456,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1305.0,
+						"translation.y": 2040.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
