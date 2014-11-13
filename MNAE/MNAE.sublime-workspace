@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
 				"m",
 				"margin-bottom"
 			],
@@ -28,20 +40,12 @@
 				"padding-left"
 			],
 			[
-				"ma",
-				"margin-bottom"
-			],
-			[
 				"paddin",
 				"padding-bottom"
 			],
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"padd",
@@ -126,10 +130,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"te",
-				"text-transform"
 			],
 			[
 				"padding",
@@ -300,26 +300,18 @@
 	"buffers":
 	[
 		{
+			"file": "html/map-site.html",
+			"settings":
+			{
+				"buffer_size": 6619,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "less/added.less",
 			"settings":
 			{
-				"buffer_size": 2090,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "html/reserva-visita.html",
-			"settings":
-			{
-				"buffer_size": 10232,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "html/item-galeria.html",
-			"settings":
-			{
-				"buffer_size": 7956,
+				"buffer_size": 2260,
 				"line_ending": "Unix"
 			}
 		}
@@ -356,20 +348,27 @@
 	},
 	"file_history":
 	[
-		"/Users/soledadmoris/DGAC/MNAE/html/contactenos.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/como-llegar.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-permanentes.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/galeria-imagenes.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/acerca.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/publicaciones.html",
 		"/Users/soledadmoris/DGAC/MNAE/html/template.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-temporal.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-permanente.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-itinerante.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/index.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-temporales.html",
-		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-itinerantes.html",
 		"/Users/soledadmoris/DGAC/MNAE/less/added.less",
 		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/galeria-imagenes.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-coleccion.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-itinerante.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-permanente.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-exhibicion-temporal.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-galeria.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/item-publicacion.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/visita-guiada.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/reserva-visita.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/acerca.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/colecciones.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/como-llegar.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/contactenos.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-itinerantes.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-permanentes.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-temporales.html",
+		"/Users/soledadmoris/DGAC/MNAE/html/index.html",
 		"/Users/soledadmoris/DGAC/MNAE/html/exhibiciones-subhome.html",
 		"/Users/soledadmoris/DGAC/MNAE/less/bootstrap.less",
 		"/Users/soledadmoris/DGAC/MNAE/less/justified-nav.less",
@@ -476,14 +475,7 @@
 		"/Users/soledadmoris/instant/instant_buy_sell/templates/instant_buy_sell/khipu_buy_transaction_cancel.html",
 		"/Users/soledadmoris/instant/instant_buy_sell/templates/instant_buy_sell/manual_transaction_success.html",
 		"/Users/soledadmoris/instant/coin4ce/base/templates/base/home.html",
-		"/Users/soledadmoris/instant/coin4ce/base/templates/base/bitcoin.html",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/wells.less",
-		"/Users/soledadmoris/instant/Chilecoin/src/web/coin4ce/instant_buy_sell/templates/instant_buy_sell/instant.html",
-		"/Users/soledadmoris/Desktop/bootstrap-3.0.3/examples/navbar-fixed-top/index.html",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/type.less",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/less/forms.less",
-		"/Users/soledadmoris/Downloads/silviomoreto-bootstrap-select-9656fcf/test.html",
-		"/Users/soledadmoris/instant/coin4ce/base/static/base/js/angular.js"
+		"/Users/soledadmoris/instant/coin4ce/base/templates/base/bitcoin.html"
 	],
 	"find":
 	{
@@ -491,7 +483,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -506,6 +498,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<li><small><a href=\"\">Política de privacidad</a> </small></li>\n                <li>|</li>\n                <li><small><a href=\"\">Mapa del sitio</a></small></li>",
+			"<a href=\"#\"><img src=\"../img/banner-gobierno-transparente.png\" alt=\"Gobierno Transparente\">\nVer más »</a>",
+			"+ Leer más",
+			"<img src=\"http://placehold.it/160x45\" alt=\"Gobierno Transparente\">\n              <img src=\"http://placehold.it/160x45\" alt=\"OIRS\">",
+			"<img class=\"pull-right\" src=\"http://placehold.it/55x90\" alt=\"First slide\">",
+			"<img class=\"pull-left\" src=\"http://placehold.it/50x70\"/>",
+			".header-container img",
 			">\n",
 			"<div class=\"col-lg-6 col-md-6\">",
 			"<img src=\"http://placehold.it/400x350\">",
@@ -626,21 +625,22 @@
 			".selectedStore",
 			"container-cupoc",
 			"8em",
-			"ng-repeat=\"time in cupoc.restrict_time\"",
-			"row text-center",
-			"ten-cols",
-			"ten-cols ",
-			"ten-columns",
-			"img-avatar",
-			"sidebar-alt-visible-lg",
-			"background-image: url(http://carrera.poc.cl/srv/getPersonPicture/113)"
+			"ng-repeat=\"time in cupoc.restrict_time\""
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"<li><small><a href=\"\">Política de privacidad</a> </small></li>\n                <li>|</li>\n                <li><small><a href=\"map-site.html\">Mapa del sitio</a></small></li>",
+			"<li><small><a href=\"\">Política de privacidad</a> </small></li>\n                <li>|</li>\n                <li><small><a href=\"map-site\">Mapa del sitio</a></small></li>",
+			"<li><small><a href=\"\">Política de privacidad</a> </small></li>\n                <li>|</li>\n                <li><small><a href=\"\">Mapa del sitio</a></small></li>",
+			"<a href=\"#\">Ver más »</a>",
+			"<img src=\"../img/banner-gobierno-transparente.png\" alt=\"Gobierno Transparente\">\nVer más »",
+			"<img src=\"../img/banner-gobierno-transparente.png\" alt=\"Gobierno Transparente\">\n              <img src=\"../img/banner-oirs.png\" alt=\"OIRS\">",
+			"<img class=\"pull-right\" src=\"../img/logo-dgac.jpg\" alt=\"DGAC\">",
+			"<img class=\"pull-left\" src=\"../img/logo-mnae.jpg\"/>",
 			"<div class=\"col-lg-6 col-md-6 item-galeria\">",
 			"<img src=\"http://placehold.it/400x250\">",
 			"<img src=\"http://placehold.it/400x350\">",
@@ -684,23 +684,51 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "less/added.less",
+					"file": "html/map-site.html",
 					"settings":
 					{
-						"buffer_size": 2090,
+						"buffer_size": 6619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2052,
-								2052
+								3351,
+								3351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 957.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/added.less",
+					"settings":
+					{
+						"buffer_size": 2260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2257,
+								2257
 							]
 						],
 						"settings":
@@ -709,63 +737,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1353.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "html/reserva-visita.html",
-					"settings":
-					{
-						"buffer_size": 10232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6835,
-								6835
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2316.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "html/item-galeria.html",
-					"settings":
-					{
-						"buffer_size": 7956,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4850,
-								2915
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1193.0,
+						"translation.y": 1699.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
