@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
 				"M",
 				"MX"
 			],
@@ -27,6 +43,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Pagos/html/index.html",
+			"settings":
+			{
+				"buffer_size": 15279,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "CEFAA/html/index.html",
+			"settings":
+			{
+				"buffer_size": 10776,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Pagos/less/variables.less",
+			"settings":
+			{
+				"buffer_size": 26783,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -210,6 +250,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nabvar-inverse",
+			";\n",
+			"></",
+			"container-fluid",
 			"Breve descripción del contenido de la colección",
 			"Nombre de la colección",
 			"Nombre de la exhibición",
@@ -339,6 +383,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"container",
 			"Breve descripción del contenido de la publicación",
 			"Nombre de la publicación",
 			"Nombre de la colección",
@@ -422,8 +467,91 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Pagos/html/index.html",
+					"settings":
+					{
+						"buffer_size": 15279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7175,
+								7175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1530.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CEFAA/html/index.html",
+					"settings":
+					{
+						"buffer_size": 10776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9957,
+								9957
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2295.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Pagos/less/variables.less",
+					"settings":
+					{
+						"buffer_size": 26783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11290,
+								11290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5115.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
