@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "Pagos"
+		},
+		{
+			"path": "MNAE"
 		}
 	]
 }
