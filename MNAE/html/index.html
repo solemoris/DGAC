@@ -112,11 +112,11 @@
           <p><a class="" href="visita-guiada.html">Ver más »</a></p>
         </div>
         <div class="col-lg-3 col-md-3">
-          <h2><a href="visita-guiada.html">Vea nuestro video<br><small>Conocenos a través del siguiente video</small></a></h2>
-          <img src="../img/visita-guiada.jpg">
+          <h2><a href="#" data-toggle="modal" data-target="#modalVideo">Vea nuestro video<br><small>Conocenos a través del siguiente video</small></a></h2>
+          <a href="#" data-toggle="modal" data-target="#modalVideo"><img src="../img/ver-video.jpg"></a>
           <br>
           <br>
-          <p><a class="" href="visita-guiada.html">Ver más »</a></p>
+          <p><a href="#" data-toggle="modal" data-target="#modalVideo">Vea nuestro video »</a></p>
         </div>
         <div class="col-lg-12 col-md-12">
 
@@ -169,6 +169,23 @@
       </div>
     </div>
     <!-- /container -->
+    <!-- Modal -->
+    <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Museo Nacional Aeronáutico y del Espacio de CHILE</h4>
+          </div>
+          <div class="modal-body">
+            <iframe width="568" height="345" src="//www.youtube.com/embed/8aqJCqlaiGM" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
