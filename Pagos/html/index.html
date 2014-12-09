@@ -33,6 +33,29 @@
               <small>Portal de Recaudación on line</small></h1>
             </div>
           </a>
+          <div class="box-indicators-container pull-right">
+            <h4 class="text-right"><i class="fa fa-line-chart"></i> Indicadores económicos</h4>
+            <div class="box-indicators">
+              <div class="row">
+                <div class="col-xs-3 text-right">
+                  <small class="mute">UF</small><br>
+                  <big>$24.703</big>
+                </div>
+                <div class="col-xs-3  text-right">
+                  <small class="mute">UTM Octubre</small><br>
+                  <big>$42.431</big>
+                </div>
+                <div class="col-xs-3  text-right">
+                  <small class="mute">Dólar Obs.</small><br>
+                  <big>$584</big>
+                </div>
+                <div class="col-xs-3  text-right">
+                  <small class="mute">Euro</small><br>
+                  <big>$739</big>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container-nav">
@@ -42,7 +65,12 @@
               <li role="presentation" class="active"><a href="#">¿Qué es el Portal de Recaudación?</a></li>
               <li role="presentation"><a href="#">Preguntas frecuentes</a></li>
               <li role="presentation"><a href="#">Contacto</a></li>
+              <li class="pull-right">
+                <button type="button" class="btn btn-default btn-login pull-right" data-toggle="modal" data-target="#myModal">Acceder</button>
+              </li>
             </ul>
+
+
           </div>
         </div>
       </div>
@@ -50,11 +78,78 @@
 
     <div class="container content">
       <div class="row">
-        <div class="col-sm-3 col-md-3 sidebar">
-          <div class="row">
-            <div class="col-xs-12">
-              <form>
-                <h4><i class="fa fa-caret-square-o-right"></i> Acceder</h4>
+        <div class="col-xs-12">
+          <!-- Carousel
+            ================================================== -->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="http://placehold.it/1140x500" alt="First slide">
+              </div>
+              <div class="item">
+                <img src="http://placehold.it/1140x500" alt="Second slide">
+                  <!--<div class="container">
+                  <div class="carousel-caption">
+                    <i class="highlight-caption">Destacamos</i><br>
+                      <h2 class="title-caption">Caso Punta Arenas</h2>
+                      <p class="description-caption">Punta Arenas 3/3/2011<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dictum neque. Phasellus fringilla sed metus eget vulputate.<br/>
+                      <a href="#"><i class="fa fa-file-pdf-o"></i> Ver mas</a></p>
+                    </div>
+                  </div> -->
+              </div>
+              <div class="item">
+                <img src="http://placehold.it/1140x500" alt="Third slide">
+                  <!--<div class="container">
+                    <div class="carousel-caption">
+                      <i class="highlight-caption">Destacamos</i><br>
+                      <h2 class="title-caption">Caso Punta Arenas</h2>
+                      <p class="description-caption">Punta Arenas 3/3/2011<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dictum neque. Phasellus fringilla sed metus eget vulputate.<br/><a href="#"><i class="fa fa-file-pdf-o"></i> Ver mas</a>
+                      </p>
+                    </div>
+                  </div> -->
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div><!-- /.carousel -->
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container-fluid">
+          <hr/>
+          <div class="row text-center">
+            <div class="col-xs-12 margin-bottom-20">
+              <img src="../img/banner-gobierno-transparente.png" alt="Gobierno Transparente">
+              <img src="../img/banner-oirs.png" alt="Oficina de Reclamos y Sugerencias">
+            </div>
+            <div class="col-xs-12 text-center">
+              <ul class="list-inline list-unstyled list-footer">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Politica de Privacidad</a></li>
+                <li><a href="#">Mapa del sitio</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Contáctenos</a></li>
+              </ul>
+              <p>
+                Dirección General de Aeronáutica Civil DGAC, Miguel Claro 1314, Providencia, Santiago de Chile<br>
+                Clasificador 3, Correo 9 | Telefono (56 2) 2439200 | Fax (56 2) 24368143
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-login">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-caret-square-o-right"></i> Acceder</h4>
+      </div>
+      <div class="modal-body">
+                      <form>
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-user"></i></div>
@@ -75,103 +170,20 @@
                     <input type="radio" name="" id="" value=""> Institucional
                   </label>
                 </div>
-                <button type="button" class="btn btn-primary btn-block">Acceder al portal</button><br/>
                 <p class="text-center">
                 <a href="#">Registrarse como usuario</a><br/>
                 <a href="#">Recuperar contraseña</a>
                 </p>
               </form>
-            </div>
-            <div class="col-xs-12">
-              <h4><i class="fa fa-line-chart"></i> Indicadores económicos
-              </h4>
-              <table class="table table-border table-striped">
-                <tbody>
-                  <tr>
-                    <td>UF</td>
-                    <td><strong>$24.703</strong></td>
-                  </tr>
-                  <tr>
-                    <td>UTM Octubre</td>
-                    <td><strong>$42.431</strong></td>
-                  </tr>
-                  <tr>
-                    <td>Dólar observado</td>
-                    <td><strong>$584</strong></td>
-                  </tr>
-                  <tr>
-                    <td>Euro</td>
-                    <td><strong>$739</strong></td>
-                  </tr>
-                </tbody>
-              </table>
-              <p><small>Jueves 23 de Octubre 2014</small></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 main">
-          <!-- Carousel
-            ================================================== -->
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="http://placehold.it/850x500" alt="First slide">
-              </div>
-              <div class="item">
-                <img src="http://placehold.it/850x500" alt="Second slide">
-                  <!--<div class="container">
-                  <div class="carousel-caption">
-                    <i class="highlight-caption">Destacamos</i><br>
-                      <h2 class="title-caption">Caso Punta Arenas</h2>
-                      <p class="description-caption">Punta Arenas 3/3/2011<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dictum neque. Phasellus fringilla sed metus eget vulputate.<br/>
-                      <a href="#"><i class="fa fa-file-pdf-o"></i> Ver mas</a></p>
-                    </div>
-                  </div> -->
-              </div>
-              <div class="item">
-                <img src="http://placehold.it/850x500" alt="Third slide">
-                  <!--<div class="container">
-                    <div class="carousel-caption">
-                      <i class="highlight-caption">Destacamos</i><br>
-                      <h2 class="title-caption">Caso Punta Arenas</h2>
-                      <p class="description-caption">Punta Arenas 3/3/2011<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dictum neque. Phasellus fringilla sed metus eget vulputate.<br/><a href="#"><i class="fa fa-file-pdf-o"></i> Ver mas</a>
-                      </p>
-                    </div>
-                  </div> -->
-              </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-          </div><!-- /.carousel -->
-        </div>
       </div>
-      <div class="footer">
-        <div class="container-fluid">
-          <hr/>
-          <div class="row text-center">
-            <div class="col-sm-9 col-sm-offset-3 margin-bottom-20">
-              <img src="../img/banner-gobierno-transparente.png" alt="Gobierno Transparente">
-              <img src="../img/banner-oirs.png" alt="Oficina de Reclamos y Sugerencias">
-            </div>
-            <div class="col-sm-9 col-sm-offset-3 text-center">
-              <ul class="list-inline list-unstyled list-footer">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Politica de Privacidad</a></li>
-                <li><a href="#">Mapa del sitio</a></li>
-                <li><a href="#">Preguntas frecuentes</a></li>
-                <li><a href="#">Contáctenos</a></li>
-              </ul>
-              <p>
-                Dirección General de Aeronáutica Civil DGAC, Miguel Claro 1314, Providencia, Santiago de Chile<br>
-                Clasificador 3, Correo 9 | Telefono (56 2) 2439200 | Fax (56 2) 24368143
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <a href="documentos-deuda.html" class="btn btn-primary">Acceder al portal</a> <!-- Cambiar a button al implementar -->
       </div>
     </div>
+  </div>
+</div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
